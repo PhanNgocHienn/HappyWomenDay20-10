@@ -37,7 +37,7 @@
                         </span>
                     </div>
                 </div>
-                <canvas id="canvas" width="1100" height="680"></canvas>
+                <canvas id="canvas"</canvas>
             </div>
         </div>
     <script>
@@ -48,8 +48,8 @@
             $("#error").show();
             return false;        }
 
-        var width = canvas.width();
-        var height = canvas.height();
+        var width = window.innerWidth;
+        var height = window.innerHeight;
         canvas.attr("width", width);
         canvas.attr("height", height);
         var opts = {
@@ -202,5 +202,6 @@
     })();
     </script>
 </div>
+		
 </body>
 </html>
