@@ -12,6 +12,17 @@ body {
   overflow: auto;
 }
 
+@media (max-width: 600px) {
+  body {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+  #main {
+    width: 100%;
+  }
+}
+
+
 a {
   color: #000000;
   font-size: 20px;
