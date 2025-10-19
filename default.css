@@ -12,20 +12,6 @@ body {
   overflow: auto;
 }
 
-@media (max-width: 600px) {
-  body {
-    font-size: 0.9em;
-    padding: 10px;
-  }
-  #main {
-    width: 100%;
-  }
-  canvas {
-    width: 100% !important;
-    height: auto !important;
-  }
-}
-
 
 
 a {
